@@ -1,7 +1,7 @@
 pipeline {
 
     agent {
-        label 'java-maven-agent'
+        label 'docker-java-cloud'
     }
 
     stages {
